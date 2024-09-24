@@ -1,0 +1,324 @@
+.header-banner {
+  background-image: url('/images/banner/categorybanner.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 320px;
+  margin-top: -74px;
+}
+.category-section {
+  padding: 24px 0px;
+}
+.category-Piano {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 23px;
+  font-family: 'sora';
+  color: #3b4357;
+}
+.category-Pianotype {
+  border: 1px solid #d4d9df;
+  border-radius: 8px;
+  /* padding: 18px 10px !important; */
+  width: 100%;
+  gap: 10px;
+}
+
+.category-text {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'sora';
+  color: #3b4357;
+  text-align: center;
+}
+.category-Pianotype:active,
+.category-Pianotype:focus {
+  border: 1px solid #3b4357;
+}
+
+.Piano-Beginners {
+  background-color: #00968a;
+  border: 1px solid #d4d9df;
+  padding: 19px 24px;
+  border-radius: 12px;
+}
+.Keyboards-Beginners {
+  background-color: #231f58;
+  border: 1px solid #d4d9df;
+  padding: 19px 24px;
+  border-radius: 12px;
+}
+.Portable-keyboards {
+  background-color: #e34061;
+  border: 1px solid #d4d9df;
+  padding: 19px 24px;
+  border-radius: 12px;
+}
+.Musical-Keyboards {
+  background-color: #f28ba9;
+  border: 1px solid #d4d9df;
+  padding: 19px 24px;
+  border-radius: 12px;
+}
+.live-musical {
+  background-color: #512a96;
+  border: 1px solid #d4d9df;
+  padding: 19px 24px;
+  border-radius: 12px;
+}
+.KeyboardsPortable {
+  background-color: #6b1579;
+  border: 1px solid #d4d9df;
+  padding: 19px 24px;
+  border-radius: 12px;
+}
+
+.top_brands {
+  padding: 15px 0px;
+  background-color: #f2f6f8;
+}
+.brands-box {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  padding: 28px 0px 12px 0px;
+  /* margin: 3px; */
+}
+.brands-box .brands-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brands-box img {
+  width: 120px;
+  height: 26px;
+  margin-bottom: 20px;
+}
+
+.brands-text p {
+  font-family: 'Sora';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.52px;
+  text-align: center;
+}
+
+/* home new */
+.home-topsection {
+  padding-top: 20px;
+}
+/* .homenew-text {
+  font-size: 25px !important;
+  font-family: 'sora' !important;
+  font-weight: 500 !important;
+  line-height: normal;
+  color: #00968a;
+}
+.homenew-music {
+  font-size: 37px !important;
+  font-family: 'sora' !important;
+  font-weight: 700 !important;
+  color: #00968a;
+  margin-top: -10px !important;
+} */
+.vector-img img {
+  width: 40px;
+  height: 33px;
+}
+.guitars-img img {
+  width: 85px;
+}
+.guitars-imgbg img{
+  width: 85px;
+}
+.guitars-imgservice img{
+  width: 77px;
+}
+.home-brands-box img{
+  object-fit: contain;
+}
+/* responsive */
+@media screen and (max-width: 599px) {
+  .text-tag {
+      font-size: 16px !important;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .music-store-text{
+      font-size: 12px;
+  }
+  .top_seller_title{
+      font-size: 16px;
+      text-align: center;
+  }
+  .main-product{
+      border-radius: 8px;
+  }
+  .premium_musical_title{
+      font-size: 16px;
+      text-align: center;
+  }
+  .home-brands-box{
+      width: 100%;
+  }
+  .guitar-text{
+      font-size: 10px !important;
+      font-weight: 400;
+      font-family: 'Sora', sans-serif;
+      text-align: center;
+      color: #3B4357;
+      width: 100% !important;
+  }
+  .login .MuiDialog-paperScrollPaper{
+    margin: 0px !important;
+    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+  }
+  .login .MuiDialog-scrollPaper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .guitars-text{
+    font-size: 12px !important;
+  }
+  .guitars-imgbg img{
+    width: 84px !important;
+  }
+  .homenew-text-service-mobile{
+    font-size: 13px !important;
+  }
+  .homenew-music-service-mobile{
+    font-size: 21px !important;
+  }
+  .guitars-imgservice img{
+    width: 78px;
+  }
+  .homenew-text {
+    font-size: 18px !important;
+    font-family: 'sora' !important;
+    font-weight: 500 !important;
+    line-height: normal;
+    color: #00968a;
+  }
+  .homenew-music {
+    font-size: 27px !important;
+    font-family: 'sora' !important;
+    font-weight: 700 !important;
+    color: #00968a;
+    margin-top: -10px !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 899px) {
+  .text-tag {
+      font-size: 20px !important;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .top_seller_title {
+      font-size: 20px;
+      text-align: center;
+  }
+  .main-product {
+      border-radius: 8px;
+  }
+  .premium_musical_title {
+      font-size: 20px;
+      text-align: center;
+  }
+  .home-brands-box {
+      width: 100%;
+  }
+  .guitar-text {
+      font-size: 12px !important;
+      font-weight: 400;
+      font-family: 'Sora', sans-serif;
+      text-align: center;
+      color: #3B4357;
+      width: 100% !important;
+  }
+    .login .MuiDialog-paperScrollPaper {
+      margin: 0px !important;
+      width: 100%;
+      border-radius: 24px 24px 0px 0px;
+    }
+  
+    .login .MuiDialog-scrollPaper {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+    .guitars-imgbg img{
+      width: 79px !important;
+    }
+    .guitars-text {
+      font-size: 13px !important;
+    }
+    .homenew-text-service-mobile {
+        font-size: 15px !important;
+    }
+  
+    .homenew-music-service-mobile {
+        font-size: 23px !important;
+    }
+    .guitars-imgservice img {
+        width: 72px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+  .text-tag {
+      font-size: 20px !important;
+  }
+  .guitar-text {
+      font-size: 12px !important;
+      font-weight: 400;
+      font-family: 'Sora', sans-serif;
+      text-align: center;
+      color: #3B4357;
+      width: 100% !important;
+  }
+
+
+}
+@media (min-width: 900px) and (max-width: 1091px) {
+    .guitars-imgbg img{
+      width: 66px !important;
+    }
+    .guitars-text {
+      font-size: 11px !important;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1349px) {
+  .guitars-imgbg img {
+    width: 73px !important;
+  }
+  .guitars-text {
+    font-size: 12px !important;
+  }
+  .guitars-imgservice img{
+     width: 63px;
+  }
+}
+
+
+.guitars-text{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  color: #3B4357;
+}
+.guitar-text{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  color: #3B4357;
+  width: 140px;
+  max-width: 132px;
+  margin-top: 7px;
+}
+.guitars-img{
+  display: flex;
+  justify-content: center;
+}

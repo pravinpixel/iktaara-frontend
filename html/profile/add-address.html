@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iktaraa - music instruments shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <!-- Custom styles for this template-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" /> -->
+</head>
+
+<body>
+    <div class="wrapper container-fluid p-3 my-profile-layout d-flex flex-column">
+        <!-- <div style="height: 86px;">
+            <header class="d-flex align-items-center justify-content-center h-50">
+                Header
+            </header>
+            <nav class="d-flex align-items-center justify-content-center h-50">Navbar</nav>
+        </div> -->
+        <div class="d-flex">
+
+            <!-- Sidebar Start -->
+            <main id="sidebar" class="sidebar">
+                <!-- Breadcrumbs Start -->
+                <section>
+                    <nav aria-label="breadcrumb" class="d-flex">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="/my-profile/profile.html" class="d-flex gap-2">
+                                    <img src="../assets/images/Home Page.png" class="pr-1" />Home</a>
+                            </li>
+                            <li class="breadcrumb-item"><a href="#"><span>My Address</span></a></li>
+                        </ol>
+                    </nav>
+                </section>
+
+                <!-- Breadcrumbs End -->
+
+                <!-- Menu Bar Start -->
+                <section>
+                    <h5 class="profile-name">User Name</h5>
+                    <nav>
+                        <ul class="menu-bar">
+                            <li>
+                                <a href="../profile/profile.html" class="menu-bar-item active">
+                                    <img src="../assets//icons/profile/profile.png" alt="">
+                                    <span>Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../profile/my-orders.html" class="menu-bar-item">
+                                    <img src="../assets//icons/profile/orders.png" alt="">
+                                    <span>My Orders</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../profile/my-address.html" class="menu-bar-item">
+                                    <img src="../assets//icons/profile/address.png" alt="">
+                                    <span>My Address</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <!-- Menu Bar End -->
+            </main>
+            <!-- Sidebar End -->
+
+            <!-- Outlet Start -->
+            <main class="outlet">
+                <!-- <span class="click" onclick="responsive()">click</span> -->
+                <section class="outlet-child-1"></section>
+                <section class="outlet-child-2">
+
+                    <section
+                        class="d-flex flex-column align-items-center justify-content-center outlet-child-addaddresssection ">
+                        <div>
+                            <div class="w-100 myprofile-top">
+                                <img src="../assets//icons/profile/address.png" alt="">
+                                <span class="myprofile-para">My Address</span>
+                            </div>
+                            <div class=" rounded d-flex align-items-center justify-content-center ">
+
+                                <form class="row form add-address-section">
+                                    <div class="">
+                                        <img src="../assets//icons/profile/business.png" alt="">
+                                        <span class="addnewaddress-span">Office</span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 profile-form">
+                                            <label class="form-label profile-label">First Name</label>
+                                            <input type="text" class="form-control input-label " id="first_name">
+                                        </div>
+                                        <div class="col-md-4 profile-form">
+                                            <label class="form-label profile-label">Last Name</label>
+                                            <input type="text" class="form-control input-label" id="last_name">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8 profile-form">
+                                            <label class="form-label profile-label">Address</label>
+                                            <input type="text" class="form-control address-label-password "
+                                                id="address">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 profile-form">
+                                            <label class="form-label profile-label">Area</label>
+                                            <input type="text" class="form-control input-label" id="area">
+                                        </div>
+                                        <div class="col-md-4 profile-form">
+                                            <label class="form-label profile-label">City</label>
+                                            <input type="text" class="form-control input-label" id="city">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 profile-form">
+                                            <label class="form-label profile-label">State</label>
+                                            <input type="text" class="form-control input-label" id="state">
+                                        </div>
+                                        <div class="col-md-4 profile-form">
+                                            <label class="form-label profile-label">Pincode</label>
+                                            <input type="text" class="form-control input-label" id="pincode">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-sm-center  justify-content-md-start  flex-wrap ">
+                                        <button class="editprofile-button1">Save</button>
+                                        <button class="editprofile-button2">Discard</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </section>
+                </section>
+
+            </main>
+
+        </div>
+
+        <!-- Outlet Start -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+
+            </script>
+        <script>
+            function responsive() {
+                const sidebar = document.getElementById('sidebar')
+                const classes = sidebar.className === 'sidebar' ? 'sidebar-responsive' : 'sidebar'
+                sidebar.className = classes
+            }
+            addEventListener('resize', () => {
+                const sidebar = document.getElementById('sidebar')
+                let classes = 'sidebar'
+                if (window.screen.width >= 1000) {
+                    classes = 'sidebar'
+                } else {
+                    console.log("hi")
+                    classes = 'sidebar-responsive'
+                }
+                sidebar.className = classes
+            })
+
+
+
+        </script>
+</body>
+
+</html>

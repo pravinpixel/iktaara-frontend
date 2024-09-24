@@ -1,0 +1,56 @@
+.login-page .wrapper {
+  background-color: #000;
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 20px !important;
+}
+.card-body {
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.card-header {
+  background: none;
+  border: none;
+}
+.card-footer {
+  border-radius: 15px;
+  background: none;
+  border: none;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.bottom-line p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.bottom-line p span {
+  background: #fff;
+}
+
+.social-login .btn {
+  width: 100%;
+  font-size: 14px;
+  color: #d4d4d4;
+  background-color: #424242;
+  text-align: center;
+}
+
+.title span{
+  float: right;
+  padding-right: 25px;
+}
+
+.MuiOutlinedInput-input{
+  border-radius: 10px;
+}
