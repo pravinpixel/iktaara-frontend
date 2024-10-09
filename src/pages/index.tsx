@@ -53,7 +53,7 @@ const Home = (props: Props) => {
     {
       image: '/images/home/home-learn.png',
       text: 'Learn',
-      url: '',
+      url: 'https://www.iktaraa.com/learn',
     },
     {
       image: '/images/home/paly.png',
@@ -68,7 +68,7 @@ const Home = (props: Props) => {
     {
       image: '/images/home/connect.png',
       text: 'Connect',
-      url: '',
+      url: 'https://survey.zohopublic.in/zs/8DdeYJ',
     },
     {
       image: '/images/home/upgrade.png',
@@ -184,7 +184,7 @@ const Home = (props: Props) => {
                           <Box>
                             <div className="guitars-imgbg home-music-cg">
                               {/* <img src={item.image} alt="img"></img> */}
-                              {index === 0 ? (
+                              {item?.url ? (
                                 <Link href={item.url}>
                                   <ImageComponent
                                     src={item.image}
