@@ -25,7 +25,7 @@ const CategoryProductThumb = ({ product }: any) => {
         >
           {product?.sale_prices?.overall_discount_percentage !== 0 && (
             <div className="end-saless">
-              <button className="end-season-btn">End of Season Sale</button>
+              <button className="end-season-btn">Festive Sale</button>
             </div>
           )}
 
