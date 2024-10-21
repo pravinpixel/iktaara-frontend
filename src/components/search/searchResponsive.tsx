@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import Slider from 'react-slick';
 const musicImage = [
   { id: 1, image: '/images/home/home-learn.png', text: 'Learn' },
-  { id: 2, image: '/images/home/paly.png', text: 'Paly' },
+  { id: 2, image: '/images/home/paly.png', text: 'Play' },
   { id: 3, image: '/images/home/perform.png', text: 'Perform' },
   { id: 4, image: '/images/home/connect.png', text: 'Connect' },
   { id: 5, image: '/images/home/upgrade.png', text: 'Upgrade' },
