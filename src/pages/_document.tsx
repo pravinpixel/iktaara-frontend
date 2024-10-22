@@ -85,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-PCNXTBCC');`,
           }}
         />
-         <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -107,9 +107,11 @@ fbq('track', 'PageView');`,
             src="https://www.facebook.com/tr?id=8281194111914959&ev=PageView&noscript=1"
           />
         </noscript>
-        <script type="text/javascript"
-src="https://onsite.optimonk.com/script.js?account=241846"
-async></script>
+        <script
+          type="text/javascript"
+          src="https://onsite.optimonk.com/script.js?account=241846"
+          async
+        ></script>
       </Head>
       <body>
         <noscript>
