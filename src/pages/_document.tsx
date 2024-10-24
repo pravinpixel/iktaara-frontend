@@ -23,6 +23,7 @@ export default function Document() {
       addressCountry: 'IN',
     },
   };
+
   return (
     <Html lang="en">
       <Head>
@@ -59,7 +60,16 @@ export default function Document() {
             ></script>
           </>
         )}
-
+        {process.env.NEXT_PUBLIC_MAIN_URL + 'buy' ===
+          'https://staging.iktaraa.com/buy' && (
+          <>
+            <script
+              type="text/javascript"
+              src="https://onsite.optimonk.com/script.js?account=241846"
+              async
+            ></script>
+          </>
+        )}
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
@@ -107,11 +117,6 @@ fbq('track', 'PageView');`,
             src="https://www.facebook.com/tr?id=8281194111914959&ev=PageView&noscript=1"
           />
         </noscript>
-        <script
-          type="text/javascript"
-          src="https://onsite.optimonk.com/script.js?account=241846"
-          async
-        ></script>
       </Head>
       <body>
         <noscript>
